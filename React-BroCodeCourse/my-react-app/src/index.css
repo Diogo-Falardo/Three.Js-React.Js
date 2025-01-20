@@ -1,0 +1,52 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c2c2c;
+}
+
+.card{
+  border: 1px solid #474747da;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(58, 58, 58, 0.151);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card > .card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  margin: 0;
+}
+
+.student{
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.student p{
+  margin: 0;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.list-category{
+  color: pink;
+}
+
+.list-items{
+  color: aqua;
+}
