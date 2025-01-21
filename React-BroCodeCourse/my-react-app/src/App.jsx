@@ -11,6 +11,11 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ButtonClick from './ButtonClick.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
+import MyComponent from './MyComponent.jsx'
+import Counter from './counter.jsx'
+import ColorPicker from './ColorPicker.jsx'
+import TodoList from './TodoList.jsx'
+import UseEffecttry from './useEffecttry.jsx'
 
 function App() {
   // const fruit = [{id: 1, name:"apple", calories: 250}, 
@@ -54,9 +59,21 @@ function App() {
     
     // </>
 
+    // <>
+    // <ButtonClick/>
+    // <ProfilePicture/>
+    // </>
+
+    // <>
+    // <MyComponent/>
+    // <Counter/>
+    // </>
     <>
-    <ButtonClick/>
-    <ProfilePicture/>
+    {/* <Food/>
+    <MyComponent/>
+    <TodoList/>
+    <useEffecttry/> */}
+    <UseEffecttry/>
     </>
   )
 }
