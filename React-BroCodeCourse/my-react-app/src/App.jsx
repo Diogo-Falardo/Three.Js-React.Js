@@ -16,6 +16,8 @@ import Counter from './counter.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import TodoList from './TodoList.jsx'
 import UseEffecttry from './useEffecttry.jsx'
+import DigitalClock from './digitalclock.jsx'
+import ComponentA from './ComponentA.jsx'
 
 function App() {
   // const fruit = [{id: 1, name:"apple", calories: 250}, 
@@ -73,7 +75,8 @@ function App() {
     <MyComponent/>
     <TodoList/>
     <useEffecttry/> */}
-    <UseEffecttry/>
+    {/* <DigitalClock/> */}
+    <ComponentA/>
     </>
   )
 }
